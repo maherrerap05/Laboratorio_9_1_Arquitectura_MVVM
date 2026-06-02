@@ -95,7 +95,7 @@ fun AcademicTaskListScreen(viewModel: AcademicTaskViewModel) {
                         Text(text = state.message, color = MaterialTheme.colorScheme.error)
                         Spacer(modifier = Modifier.height(10.dp))
                         Button(onClick = { viewModel.onNavigateToCreate() }) {
-                            Text("Intente Denuevo")
+                            Text("Reintentar")
                         }
                     }
                 }
