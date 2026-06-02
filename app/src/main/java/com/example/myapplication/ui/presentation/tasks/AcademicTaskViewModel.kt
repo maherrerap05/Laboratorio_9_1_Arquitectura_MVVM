@@ -90,7 +90,7 @@ class AcademicTaskViewModel(
             } catch (e: IllegalArgumentException) {
                 _uiState.value =
                     AcademicTaskUiState.Error(
-                        e.message ?: "Dato inválido"
+                        e.message ?: "Datos inválido"
                     )
                 currentScreen = ScreenType.LIST
 
