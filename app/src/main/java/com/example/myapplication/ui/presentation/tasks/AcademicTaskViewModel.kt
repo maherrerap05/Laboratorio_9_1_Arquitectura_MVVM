@@ -46,7 +46,7 @@ class AcademicTaskViewModel(
             } catch (e: Exception) {
                 _uiState.value =
                     AcademicTaskUiState.Error(
-                        "Error crítico al cargar el listado: ${e.localizedMessage}"
+                        "Error crítico al renderizar el listado: ${e.localizedMessage}"
                     )
             }
         }
