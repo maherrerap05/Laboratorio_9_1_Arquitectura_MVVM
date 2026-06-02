@@ -59,7 +59,7 @@ class AcademicTaskViewModel(
             } catch (e: Exception) {
                 _uiState.value =
                     AcademicTaskUiState.Error(
-                        "No se pudo actualizar el estado de la tarea."
+                        "No se pudo actualizar el estado de la tarea académica."
                     )
             }
         }
